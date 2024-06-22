@@ -8,13 +8,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
+api_key = GENAI_API_KEY
 
-api_key = os.getenv("GENAI_API_KEY")
-
-# Checking if API key is provided
-if not api_key:
-    st.error("Please set the GENAI_API_KEY environment variable.")
-    st.stop()
 
 # Configuring generative AI with your API key
 genai.configure(api_key=api_key)
