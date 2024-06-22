@@ -1,11 +1,7 @@
 import os
-os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
 import streamlit as st
 import google.generativeai as genai
-from dotenv import load_dotenv
 
-# Load environment variables from .env file
-load_dotenv()
 
 
 api_key = GENAI_API_KEY
