@@ -1,6 +1,6 @@
 # IIT Madras BS Degree Chatbot
 
-##Note: This project is not affiliated with or endorsed by IIT Madras. It is an independent project developed to assist prospective and current students of the IIT Madras BS degree program.
+## Note: This project is not affiliated with or endorsed by IIT Madras. It is an independent project developed to assist prospective and current students of the IIT Madras BS degree program.
 
 This repository contains a chatbot designed to answer any questions related to the IIT Madras BS degree program. The chatbot is built using the Google Generative API and Streamlit.
 
@@ -49,11 +49,13 @@ This will start a local server, and you can interact with the chatbot via your w
 
 ##Project Structure
 
+```sh
 iit-madras-bs-chatbot/
 ├── app.py              # Main application file
 ├── requirements.txt    # Python dependencies
 ├── README.md           # Project readme file
 └── databasetxt.txt     #prompt/system_instructions
+```
 
 ##License
 This project is under a private license. The code is proprietary and not for public use. Only authorized individuals with explicit permission are allowed to access and use the code.
@@ -61,7 +63,7 @@ This project is under a private license. The code is proprietary and not for pub
 ##Contact
 If you have any questions or suggestions, feel free to reach out to the project maintainer:
 
-LinkedIn: https://www.linkedin.com/in/s-khavin73/
+LinkedIn: https://www.linkedin.com/in/s-khavin73/ \n
 GitHub: khavindev
 
 
