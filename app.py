@@ -31,7 +31,6 @@ chat_session = model.start_chat(
 )
 
 # Making a streamlit page
-[theme]
 base = "dark"
 
 def wide_space_default():
