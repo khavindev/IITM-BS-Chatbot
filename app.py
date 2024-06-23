@@ -2,7 +2,7 @@ import os
 import streamlit as st
 import google.generativeai as genai
 
-
+#Please specicfy api key to streamlit and name it GENAI_API_KEY
 api_key = os.getenv('GENAI_API_KEY')
 
 
@@ -31,6 +31,14 @@ chat_session = model.start_chat(
 )
 
 # Making a streamlit page
+[theme]
+base = "dark"
+
+def wide_space_default():
+st.set_page_config(layout=“wide”)
+
+wide_space_default()
+
 with st.sidebar:
         st.header("🪄")
         st.subheader("Made by khavindev✨")
