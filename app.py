@@ -35,7 +35,7 @@ chat_session = model.start_chat(
 base = "dark"
 
 def wide_space_default():
-st.set_page_config(layout="wide")
+  st.set_page_config(layout="wide")
 
 wide_space_default()
 
