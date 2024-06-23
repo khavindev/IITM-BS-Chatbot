@@ -57,10 +57,10 @@ iit-madras-bs-chatbot/
 └── databasetxt.txt     #prompt/system_instructions
 ```
 
-##License
+## License
 This project is under a private license. The code is proprietary and not for public use. Only authorized individuals with explicit permission are allowed to access and use the code.
 
-##Contact
+## Contact
 If you have any questions or suggestions, feel free to reach out to the project maintainer:
 
 LinkedIn: https://www.linkedin.com/in/s-khavin73/ \n
