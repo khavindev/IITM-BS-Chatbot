@@ -31,33 +31,36 @@ chat_session = model.start_chat(
 )
 
 # Making a streamlit page
-base = "dark"
+base = "dark"   #Setting base theme automatically to dark
 
 def wide_space_default():
-  st.set_page_config(layout="wide")
+  st.set_page_config(layout="wide")   #function to set base page to wide 
 
 wide_space_default()
 
+#sidebar
 with st.sidebar:
         st.header("🪄")
         st.subheader("Made by khavindev✨")
         st.write("A student of IIT Madras BS in data science")
         st.write("[My LinkedIn](https://www.linkedin.com/in/s-khavin73/)")
         st.write("[Github](https://github.com/khavindev)")
-        st.write("if you have any issues ping me on linkedin")
+        st.write("[Instagram](https://instagram.com/curiosity.ai_)")
+        st.write("if you have any issues ping me on linkedin or instagram")
         st.write("[Powered by gemini-1.5]")
 
-
+#Main page TITLE and subheader
 
 st.title("IIT Madras BS BOT🎓:")
 st.subheader("Ask any query about the BS in Data Science Program 📚🔍")
+
 # User input
 user_input = st.text_input("💬 Enter your question here : ✍️")
 
 if st.button("Get Response✨"):
     if user_input:
-        chat_session = model.start_chat(
-            history=[]
+        chat_session = model.start_chat(  #starting model chat
+            history=[]                    #initialize history for state remembering
         )
 
         response = chat_session.send_message(user_input)
