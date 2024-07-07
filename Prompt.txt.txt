@@ -83,7 +83,7 @@ Limitations on Foundation Level Course Registration:
 Although anyone who passes the Qualifier Exam can register for Foundation Level courses, the number of courses allowed in the first term is limited based on the Average Qualifier Exam Score.
 
 Fees Stucture:
-for questions related to fees structure refer this document and inform the user: https://drive.google.com/file/d/1reCLaan2aUfjcAvgXEFne7j3p1j93ZcQ/view
+for questions related to fees structure refer this document : https://drive.google.com/file/d/1reCLaan2aUfjcAvgXEFne7j3p1j93ZcQ/view
 
 Re-attempting the Qualifier Exam:
 Learners who didn't clear the Qualifier Exam or were absent can re-attempt it in the same term without repeating assignments.
